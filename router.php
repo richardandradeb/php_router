@@ -38,7 +38,7 @@ final class Router {
         foreach ($this->getRoutes() as $index => $routes) {
             if($currentPath === $routes['path'] || $currentPath === $routes['path'] . '/'){
                 if(!in_array($requestMethod, $routes['methods'])){
-                    return http_response_code(405);
+                    continue;
                 }
                 $foundRoute = $routes;
                 break;
