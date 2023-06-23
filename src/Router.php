@@ -82,7 +82,7 @@ final class Router {
 
         try {
             if($params === ''){
-                return new $controller($params = [], $foundRoute);
+                return new $controller($params, $foundRoute);
             }
 
             return new $controller($params, $foundRoute);
