@@ -82,10 +82,10 @@ final class Router {
 
         try {
             if($params === ''){
-                return new $controller;
+                return new $controller($params = [], $foundRoute);
             }
 
-            return new $controller($params);
+            return new $controller($params, $foundRoute);
 
         } catch (\Error $e) {
             return http_response_code(500);
