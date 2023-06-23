@@ -21,6 +21,11 @@ final class Router {
         $this->controllerNamespace = $controllerNamespace;
     }
 
+    private function getRoutes() : array
+    {
+        return $this->routes;
+    }
+
     public static function setHeaders(array $headers) : void 
     {
         foreach ($headers as $key => $value) {
@@ -146,10 +151,6 @@ final class Router {
                         throw new Exception("Route path given already exists within the given HTTP method!");
                     }
                 }
-            }
-
-            if($route['controller'] === $params['controller']){
-                throw new Exception("Controller is already associated within one of the routes!");
             }
         }
 
