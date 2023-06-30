@@ -1,6 +1,6 @@
 <?php 
 
-namespace Richard\PhpRouter;
+namespace Richard\PhpRouter\Controller;
 
 use \Exception;
 

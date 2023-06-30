@@ -1,19 +1,19 @@
 <?php return array(
     'root' => array(
-        'name' => 'richard/php_router',
+        'name' => '__root__',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'fe0339f01514a03e972245f5adffd3003e1c335b',
+        'reference' => 'd3ff12806fd703c6de3d0b0639ed40be5e031686',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
-        'richard/php_router' => array(
+        '__root__' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'fe0339f01514a03e972245f5adffd3003e1c335b',
+            'reference' => 'd3ff12806fd703c6de3d0b0639ed40be5e031686',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
