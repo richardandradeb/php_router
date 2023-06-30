@@ -1,4 +1,7 @@
 {
+    "name": "richardandrade/php_router",
+    "description": "A simple router for managing your app routes",
+    "type": "library",
     "autoload": {
         "psr-4": {
             "Richard\\PhpRouter\\" : "src/"
